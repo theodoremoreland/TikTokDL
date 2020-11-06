@@ -1,11 +1,3 @@
-# Visit desired user profile.
-# Click on user's first video.
-# Confirm that browser window is at least 1280px by 720px, if not, reload page (a clickable arrow shaped button for alternating videos must be visible)
-# Copy and paste "pasteInConsole" script into web browser's dev console.
-# Execute script (e.g. press 'Enter' after pasting "pasteInConsole" script)
-# Copy and paste links logged in dev console into "links.txt" (view "links.txt.example to see what logs and links.txt should look like")
-# Run "main.py"
-
 # Third Party
 from splinter import Browser
 
