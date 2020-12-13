@@ -17,7 +17,7 @@ for link in sanitizeLinks():
             inputField = browser.find_by_id('link_url')
             break
     inputField.fill(link)
-    browser.find_by_name('submit').click()
+    browser.find_by_text(' Download').click()
     while True:
         if browser.links.find_by_partial_href('=mp4').visible == True:
             browser.links.find_by_partial_href('=mp4').click()
